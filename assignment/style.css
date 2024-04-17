@@ -5,8 +5,11 @@ header {
 }
 main {
     background-color: rgb(226, 160, 74);
+    padding: 1em;
 }
 
 body {
-    background-image: "assignment-unit-5.2/assignment/record.png";
+    background-image: url('record.png');
+    animation: slide 10s infinite alternate;
+    margin: 0;
 }
